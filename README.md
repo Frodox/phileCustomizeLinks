@@ -19,10 +19,11 @@ for external links (which don't contain domain name and don't start with `/`).
 Just after you install and activate plugin, all links will be updated (be sure to update cache).
 
 ### Customize
-You can set some defaults in the plugins config file (`plugins/phileCustomizeLinks/config.php`):
+You can set some defaults in the plugin's config file (`plugins/phileCustomizeLinks/config.php`),
+available keys:
 
  * `target` -- which text to put into `target=""` attribute (`_blank` by default)
  * `rel` -- which text to put into `rel=""` attribute (`nofollow` by default)
- * `encoding` -- encoding of your text/`md`-file for correct work (`UTF-8` by default)
+ * `encoding` -- encoding of your text/`md`-file (needed for correct work; `UTF-8` by default)
 
-**Note**: Don't remove any line in plugin config file! Just edit the values.
+**Note**: Don't remove any line in plugin's config file! Just edit the values.
