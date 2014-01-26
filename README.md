@@ -1,4 +1,4 @@
-# phileCustomizeLinks
+# Phile Customize Links plugin
 
 A plugin for PhileCMS to customize links (`a` tags).
 Now available:
