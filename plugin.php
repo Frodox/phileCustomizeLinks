@@ -4,7 +4,7 @@
  * Phile Customize Links plugin
  *
  * Use it, if you want to add extra params to external links.
- * Now available: rel="nofollow" and target="blank" (both enabled by default)
+ * Now available: rel="nofollow" and target="_blank" (both enabled by default)
  * 
  * @author Christian Evans <Christian@bitthinker.com>
  * @version 1.0
