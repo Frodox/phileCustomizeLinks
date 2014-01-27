@@ -6,7 +6,7 @@ Now available:
  * adding `rel="nofollow"`
  * adding `target="_blank"`
 
-for external links (which don't contain domain name and don't start with `/`).
+for external links (which don't contain domain name and don't start with `/` or `#`).
 
 ### Installation
 

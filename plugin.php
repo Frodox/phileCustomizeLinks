@@ -32,7 +32,7 @@ class PhileCustomizeLinks extends \Phile\Plugin\AbstractPlugin implements \Phile
 
 			/* modify <a> tags, if find any
 			 * don't edit, if "href":
-			 * * starts with '/'
+			 * * starts with '/', '#'
 			 * * contain 'domain' name
 			 **/
 
@@ -48,10 +48,11 @@ class PhileCustomizeLinks extends \Phile\Plugin\AbstractPlugin implements \Phile
 
 				$href_url = $a_tag->getAttribute("href");
 				$start_with_slash = ($href_url[0] == '/') ? true : false;
+				$start_with_hash  = ($href_url[0] == '#') ? true : false;
 				// case sensetive...
 				$contain_domain = (substr_count($href_url, $domain) >=1 ) ? true : false;
 
-				if ($start_with_slash || $contain_domain)
+				if ($start_with_slash || $contain_domain || $start_with_hash)
 					continue;
 
 				//echo "external url: " . $href_url . "\n<br>";
